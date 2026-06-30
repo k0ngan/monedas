@@ -1,3 +1,14 @@
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+
+# Artefactos de build LaTeX
+*.aux
+*.log
+*.out
+*.toc
+informe/build*.log
+informe/p1.log
+informe/p2.log
+informe/pass1.log
+informe/_tables.txt

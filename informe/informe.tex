@@ -202,9 +202,9 @@ absoluto. La Tabla~\ref{tab:resumen} resume el desempeño y la Figura~\ref{fig:b
 \hline
 Configuración & MAE & Error total & Exactas (\%) & $\pm$1 (\%) & Tiempo (ms) \\
 \hline
-C1 etiquetado        & 1.65 & 43 & 42.3 & 65.4 & 275.8 \\
-C2 +excentricidad    & 1.69 & 44 & 42.3 & 61.5 & 122.8 \\
-\textbf{C3 k-means}  & \textbf{1.50} & \textbf{39} & \textbf{50.0} & \textbf{69.2} & 226.2 \\
+C1 etiquetado        & 1.65 & 43 & 42.3 & 65.4 & 480.5 \\
+C2 +excentricidad    & 1.69 & 44 & 42.3 & 61.5 & 359.8 \\
+\textbf{C3 k-means}  & \textbf{1.50} & \textbf{39} & \textbf{50.0} & \textbf{69.2} & 513.6 \\
 \hline
 \end{tabular}
 \end{table}
@@ -236,8 +236,8 @@ La Figura~\ref{fig:casos} muestra tres casos exitosos y tres fallidos de C2 con 
 \hline
 Método & MAE & Exactas (\%) & Tiempo (ms) & Robustez ilum. & Sensibilidad & Coste \\
 \hline
-Componentes + bbox (C2) & 1.69 & 42.3 & 122.8 & media & media (área, ecc., disk) & bajo \\
-k-means (C3)            & 1.50 & 50.0 & 226.2 & media-alta & alta ($k$, semilla) & alto \\
+Componentes + bbox (C2) & 1.69 & 42.3 & 359.8 & media & media (área, ecc., disk) & bajo \\
+k-means (C3)            & 1.50 & 50.0 & 513.6 & media-alta & alta ($k$, semilla) & alto \\
 \hline
 \end{tabular}
 \end{table}
