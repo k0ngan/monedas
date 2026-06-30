@@ -10,10 +10,14 @@ digital de imágenes (Otsu, morfología, watershed, Hough y Fourier). Trabajo in
 ## Contenido
 
 ```
-images/                                         32 imágenes yen (.jpg)
+images/                                         26 fotografías yen curadas (.jpg)
 ground_truth.csv                                conteo real de monedas por imagen
 UTEM_2026_1_PDDI_Tarea2_Monedas_Yen.ipynb       notebook ejecutable (Partes I–VII + uso de IA)
 ```
+
+El notebook aplica además técnicas del material del curso (transformaciones de histograma,
+corrección de iluminación por división, Fourier 2D con `scipy.fft`) e incluye una tabla que mapea
+cada técnica a su apunte fuente.
 
 ## Cómo ejecutar en Google Colab
 
